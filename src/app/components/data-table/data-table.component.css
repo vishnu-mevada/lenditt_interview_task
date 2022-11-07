@@ -1,0 +1,92 @@
+.container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.filter-class {
+    display: flex;
+    gap: 15px
+}
+
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+form {
+    padding-bottom: 30px;
+}
+
+.primary {
+    color: white;
+    width: 110px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.date-block {
+    display: flex;
+}
+
+.date-block__list {
+    flex-basis: 150px;
+    margin-right: 15px;
+}
+
+.error {
+    text-align: center;
+}
+
+::ng-deep .mat-paginator-page-size-label {
+    display: none !important;
+}
+
+::ng-deep .mat-paginator-page-size-value {
+    display: none !important;
+}
+
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .filter-class {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .filter-class {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .date-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .filter-class {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .date-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
